@@ -1,0 +1,8 @@
+com\longteng\selenium\page\ExampleJdHomePage.class
+com\longteng\selenium\testcase\TestBase.class
+com\longteng\selenium\page\AllCreditPage.class
+com\longteng\selenium\page\P2pLoginPage.class
+com\longteng\selenium\testcase\ExampleTestDemo.class
+com\longteng\selenium\testcase\P2pLoginCase.class
+com\longteng\selenium\page\ExampleBaiduHomePage.class
+com\longteng\selenium\testcase\AllCreditCase.class

@@ -1,0 +1,14 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 4, Failures: 1, Errors: 0, Skipped: 3, Time elapsed: 1.739 sec <<< FAILURE! - in TestSuite
+initPage(com.longteng.selenium.testcase.P2pLoginCase)  Time elapsed: 1.159 sec  <<< FAILURE!
+java.lang.ExceptionInInitializerError: null
+	at org.openqa.selenium.firefox.internal.Executable.locateFirefoxBinaryFromSystemProperty(Executable.java:146)
+	at org.openqa.selenium.firefox.internal.Executable.<clinit>(Executable.java:45)
+	at org.openqa.selenium.firefox.FirefoxBinary.<init>(FirefoxBinary.java:60)
+	at org.openqa.selenium.firefox.FirefoxBinary.<init>(FirefoxBinary.java:56)
+	at org.openqa.selenium.firefox.FirefoxDriver.<init>(FirefoxDriver.java:120)
+	at com.longteng.qa.webdriver.DriverBase.launch(DriverBase.java:47)
+	at com.longteng.selenium.testcase.P2pLoginCase.initPage(P2pLoginCase.java:18)
+
