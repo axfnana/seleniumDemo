@@ -1,14 +1,36 @@
 -------------------------------------------------------------------------------
 Test set: TestSuite
 -------------------------------------------------------------------------------
-Tests run: 4, Failures: 1, Errors: 0, Skipped: 3, Time elapsed: 1.739 sec <<< FAILURE! - in TestSuite
-initPage(com.longteng.selenium.testcase.P2pLoginCase)  Time elapsed: 1.159 sec  <<< FAILURE!
-java.lang.ExceptionInInitializerError: null
-	at org.openqa.selenium.firefox.internal.Executable.locateFirefoxBinaryFromSystemProperty(Executable.java:146)
-	at org.openqa.selenium.firefox.internal.Executable.<clinit>(Executable.java:45)
-	at org.openqa.selenium.firefox.FirefoxBinary.<init>(FirefoxBinary.java:60)
-	at org.openqa.selenium.firefox.FirefoxBinary.<init>(FirefoxBinary.java:56)
-	at org.openqa.selenium.firefox.FirefoxDriver.<init>(FirefoxDriver.java:120)
-	at com.longteng.qa.webdriver.DriverBase.launch(DriverBase.java:47)
-	at com.longteng.selenium.testcase.P2pLoginCase.initPage(P2pLoginCase.java:18)
+Tests run: 5, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 141.722 sec <<< FAILURE! - in TestSuite
+addCreditCase(com.longteng.selenium.testcase.AllCreditCase)  Time elapsed: 32.972 sec  <<< FAILURE!
+org.openqa.selenium.UnhandledAlertException: Unexpected modal dialog (text: 无法整除): 无法整除
+Build info: version: '2.53.1', revision: 'a36b8b1cd5757287168e54b817830adce9b0158d', time: '2016-06-30 19:26:09'
+System info: host: 'DESKTOP-CTUQCKS', ip: '192.168.1.6', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.7.0_80'
+*** Element info: {Using=name, value=enddate}
+Session ID: 7158925a-b20b-4464-bf9d-71778be778b6
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{platform=WINDOWS, acceptSslCerts=true, javascriptEnabled=true, cssSelectorsEnabled=true, databaseEnabled=true, browserName=firefox, handlesAlerts=true, nativeEvents=false, webStorageEnabled=true, rotatable=false, locationContextEnabled=true, applicationCacheEnabled=true, takesScreenshot=true, version=34.0}]
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:57)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:526)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)
+	at org.openqa.selenium.remote.ErrorHandler.createUnhandledAlertException(ErrorHandler.java:187)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:154)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:678)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:363)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByName(RemoteWebDriver.java:461)
+	at org.openqa.selenium.By$ByName.findElement(By.java:303)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:355)
+	at sun.reflect.GeneratedMethodAccessor1.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$2.invoke(EventFiringWebDriver.java:103)
+	at com.sun.proxy.$Proxy8.findElement(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver.findElement(EventFiringWebDriver.java:188)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at com.sun.proxy.$Proxy10.sendKeys(Unknown Source)
+	at com.longteng.selenium.page.AllCreditPage.addCredit(AllCreditPage.java:162)
+	at com.longteng.selenium.testcase.AllCreditCase.addCreditCase(AllCreditCase.java:26)
 

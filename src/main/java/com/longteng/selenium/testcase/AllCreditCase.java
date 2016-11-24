@@ -14,7 +14,7 @@ public class AllCreditCase extends TestBase{
 	 * 新增贷款的case
 	 * @throws AWTException 
 	 */
-	@Test(dataProvider="csv",enabled=false)
+	@Test(dataProvider="csv",enabled=true)
 	public void addCreditCase(String money) throws AWTException {
 		allCrePage = PageFactory.initElements(driver, AllCreditPage.class);
 		Logger.log("点击菜单");

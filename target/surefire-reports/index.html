@@ -23,7 +23,7 @@
     <div class="top-banner-root">
       <span class="top-banner-title-font">Test results</span>
       <br/>
-      <span class="top-banner-font-1">1 suite</span>
+      <span class="top-banner-font-1">1 suite, 1 failed test</span>
     </div> <!-- top-banner-root -->
     <div class="navigator-root">
       <div class="navigator-suite-header">
@@ -37,7 +37,7 @@
         <div class="rounded-window">
           <div class="suite-header light-rounded-window-top">
             <a href="#" class="navigator-link" panel-name="suite-suite">
-              <span class="suite-name border-skipped">suite</span>
+              <span class="suite-name border-failed">suite</span>
             </a> <!-- navigator-link -->
           </div> <!-- suite-header light-rounded-window-top -->
           <div class="navigator-suite-content">
@@ -48,7 +48,7 @@
               <ul>
                 <li>
                   <a href="#" class="navigator-link " panel-name="test-xml-suite">
-                    <span>D:\workSpace\com.longteng.selenium.demo\AutoTest.xml</span>
+                    <span>D:\workspace\seleniumDemo\AutoTest.xml</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
@@ -90,26 +90,50 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">2 methods,  2 skipped,  </span>
+                    <span class="method-stats">5 methods, 1 failed,   4 passed</span>
                   </li>
                   <li>
-                    <span class="method-list-title skipped">Skipped methods</span>
-                    <span class="show-or-hide-methods skipped">
-                      <a href="#" panel-name="suite-suite" class="hide-methods skipped suite-suite"> (hide)</a> <!-- hide-methods skipped suite-suite -->
-                      <a href="#" panel-name="suite-suite" class="show-methods skipped suite-suite"> (show)</a> <!-- show-methods skipped suite-suite -->
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-suite" class="hide-methods failed suite-suite"> (hide)</a> <!-- hide-methods failed suite-suite -->
+                      <a href="#" panel-name="suite-suite" class="show-methods failed suite-suite"> (show)</a> <!-- show-methods failed suite-suite -->
                     </span>
-                    <div class="method-list-content skipped suite-suite">
+                    <div class="method-list-content failed suite-suite">
                       <span>
-                        <img width="3%" src="skipped.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-suite" title="com.longteng.selenium.testcase.P2pLoginCase" hash-for-method="loginCase(andawei, 123456)">loginCase(andawei, 123456)</a> <!-- method navigator-link -->
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-suite" title="com.longteng.selenium.testcase.AllCreditCase" hash-for-method="addCreditCase(127822)">addCreditCase(127822)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-suite -->
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-suite" class="hide-methods passed suite-suite"> (hide)</a> <!-- hide-methods passed suite-suite -->
+                      <a href="#" panel-name="suite-suite" class="show-methods passed suite-suite"> (show)</a> <!-- show-methods passed suite-suite -->
+                    </span>
+                    <div class="method-list-content passed suite-suite">
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-suite" title="com.longteng.selenium.testcase.AllCreditCase" hash-for-method="addCreditCase(10000)">addCreditCase(10000)</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
-                        <img width="3%" src="skipped.png"/>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-suite" title="com.longteng.selenium.testcase.AllCreditCase" hash-for-method="addCreditCase(200000)">addCreditCase(200000)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
                         <a href="#" class="method navigator-link" panel-name="suite-suite" title="com.longteng.selenium.testcase.P2pLoginCase" hash-for-method="loginCase(admin, admin)">loginCase(admin, admin)</a> <!-- method navigator-link -->
                       </span>
                       <br/>
-                    </div> <!-- method-list-content skipped suite-suite -->
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-suite" title="com.longteng.selenium.testcase.P2pLoginCase" hash-for-method="loginCase(andawei, 123456)">loginCase(andawei, 123456)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-suite -->
                   </li>
                 </ul>
               </div> <!-- suite-section-content -->
@@ -121,20 +145,87 @@
     <div class="wrapper">
       <div class="main-panel-root">
         <div panel-name="suite-suite" class="panel suite">
-          <div class="suite-suite-class-skipped">
+          <div class="suite-suite-class-failed">
             <div class="main-panel-header rounded-window-top">
-              <img src="skipped.png"/>
-              <span class="class-name">com.longteng.selenium.testcase.P2pLoginCase</span>
+              <img src="failed.png"/>
+              <span class="class-name">com.longteng.selenium.testcase.AllCreditCase</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="loginCase(andawei, 123456)">
-                  </a> <!-- loginCase(andawei, 123456) -->
-                  <span class="method-name">loginCase</span>
-                  <span class="parameters">(andawei, 123456)</span>
+                  <a name="addCreditCase(127822)">
+                  </a> <!-- addCreditCase(127822) -->
+                  <span class="method-name">addCreditCase</span>
+                  <span class="parameters">(127822)</span>
+                  <div class="stack-trace">org.openqa.selenium.UnhandledAlertException: Unexpected modal dialog (text: 无法整除): 无法整除
+Build info: version: &apos;2.53.1&apos;, revision: &apos;a36b8b1cd5757287168e54b817830adce9b0158d&apos;, time: &apos;2016-06-30 19:26:09&apos;
+System info: host: &apos;DESKTOP-CTUQCKS&apos;, ip: &apos;192.168.1.6&apos;, os.name: &apos;Windows 8.1&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.3&apos;, java.version: &apos;1.7.0_80&apos;
+*** Element info: {Using=name, value=enddate}
+Session ID: 7158925a-b20b-4464-bf9d-71778be778b6
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{platform=WINDOWS, acceptSslCerts=true, javascriptEnabled=true, cssSelectorsEnabled=true, databaseEnabled=true, browserName=firefox, handlesAlerts=true, nativeEvents=false, webStorageEnabled=true, rotatable=false, locationContextEnabled=true, applicationCacheEnabled=true, takesScreenshot=true, version=34.0}]
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:57)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:526)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)
+	at org.openqa.selenium.remote.ErrorHandler.createUnhandledAlertException(ErrorHandler.java:187)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:154)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:678)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:363)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByName(RemoteWebDriver.java:461)
+	at org.openqa.selenium.By$ByName.findElement(By.java:303)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:355)
+	at sun.reflect.GeneratedMethodAccessor1.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$2.invoke(EventFiringWebDriver.java:103)
+	at com.sun.proxy.$Proxy8.findElement(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver.findElement(EventFiringWebDriver.java:188)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at com.sun.proxy.$Proxy10.sendKeys(Unknown Source)
+	at com.longteng.selenium.page.AllCreditPage.addCredit(AllCreditPage.java:162)
+	at com.longteng.selenium.testcase.AllCreditCase.addCreditCase(AllCreditCase.java:26)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:696)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:882)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1189)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:124)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:348)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:343)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:305)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:254)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
+	at org.testng.TestNG.run(TestNG.java:1057)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:217)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:84)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:92)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:200)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:153)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:103)
+
+</div> <!-- stack-trace -->
                 </div> <!-- method-content -->
               </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-suite-class-failed -->
+          <div class="suite-suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.longteng.selenium.testcase.P2pLoginCase</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
                   <a name="loginCase(admin, admin)">
@@ -143,12 +234,44 @@
                   <span class="parameters">(admin, admin)</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="loginCase(andawei, 123456)">
+                  </a> <!-- loginCase(andawei, 123456) -->
+                  <span class="method-name">loginCase</span>
+                  <span class="parameters">(andawei, 123456)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-suite-class-skipped -->
+          </div> <!-- suite-suite-class-passed -->
+          <div class="suite-suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.longteng.selenium.testcase.AllCreditCase</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="addCreditCase(10000)">
+                  </a> <!-- addCreditCase(10000) -->
+                  <span class="method-name">addCreditCase</span>
+                  <span class="parameters">(10000)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="addCreditCase(200000)">
+                  </a> <!-- addCreditCase(200000) -->
+                  <span class="method-name">addCreditCase</span>
+                  <span class="parameters">(200000)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-suite-class-passed -->
         </div> <!-- panel suite -->
         <div panel-name="test-xml-suite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">D:\workSpace\com.longteng.selenium.demo\AutoTest.xml</span>
+            <span class="header-content">D:\workspace\seleniumDemo\AutoTest.xml</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <pre>
@@ -207,20 +330,32 @@ data.addColumn('number', 'Number');
 data.addColumn('string', 'Method');
 data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
-data.addRows(2);
+data.addRows(5);
 data.setCell(0, 0, 0)
-data.setCell(0, 1, 'loginCase')
-data.setCell(0, 2, 'com.longteng.selenium.testcase.P2pLoginCase')
-data.setCell(0, 3, 1);
+data.setCell(0, 1, 'addCreditCase')
+data.setCell(0, 2, 'com.longteng.selenium.testcase.AllCreditCase')
+data.setCell(0, 3, 42909);
 data.setCell(1, 0, 1)
-data.setCell(1, 1, 'loginCase')
-data.setCell(1, 2, 'com.longteng.selenium.testcase.P2pLoginCase')
-data.setCell(1, 3, 0);
+data.setCell(1, 1, 'addCreditCase')
+data.setCell(1, 2, 'com.longteng.selenium.testcase.AllCreditCase')
+data.setCell(1, 3, 36277);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'addCreditCase')
+data.setCell(2, 2, 'com.longteng.selenium.testcase.AllCreditCase')
+data.setCell(2, 3, 32955);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'loginCase')
+data.setCell(3, 2, 'com.longteng.selenium.testcase.P2pLoginCase')
+data.setCell(3, 3, 7121);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'loginCase')
+data.setCell(4, 2, 'com.longteng.selenium.testcase.P2pLoginCase')
+data.setCell(4, 3, 6137);
 window.suiteTableData['suite']= { tableData: data, tableDiv: 'times-div-suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 1 ms</span>
+              <span class="suite-total-time">Total running time: 2 minutes</span>
               <div id="times-div-suite">
               </div> <!-- times-div-suite -->
             </div> <!-- times-div -->
@@ -231,19 +366,122 @@ return data;
             <span class="header-content">Reporter output for suite</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">loginCase(admin, admin)</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">[LongTeng 2016-11-23 22:44:37] 输入用户名：admin</span>
+                <span class="reporter-method-output">[LongTeng 2016-11-23 22:44:37] 输入密码：admin</span>
+                <span class="reporter-method-output">[LongTeng 2016-11-23 22:44:37] 输入验证码：1111</span>
+                <span class="reporter-method-output">[LongTeng 2016-11-23 22:44:37] 点击登录按钮</span>
+                <span class="reporter-method-output">[LongTeng 2016-11-23 22:44:43] 登录成功！</span>
+                <span class="reporter-method-output">[LongTeng 2016-11-23 22:44:43] =======================================================</span>
+                <span class="reporter-method-output">[LongTeng 2016-11-23 22:44:43] 测试方法 【loginCase】 执行成功！</span>
+                <span class="reporter-method-output">[LongTeng 2016-11-23 22:44:43] =======================================================</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">addCreditCase(10000)</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">[LongTeng 2016-11-23 22:42:38] 点击菜单</span>
+                <span class="reporter-method-output">[LongTeng 2016-11-23 22:43:14] 点击新增贷款按钮</span>
+                <span class="reporter-method-output">[LongTeng 2016-11-23 22:43:14] 填写新增贷款详细信息！</span>
+                <span class="reporter-method-output">[LongTeng 2016-11-23 22:43:15] 输入贷款用途</span>
+                <span class="reporter-method-output">[LongTeng 2016-11-23 22:43:15] 输入简称</span>
+                <span class="reporter-method-output">[LongTeng 2016-11-23 22:43:15] 输入会员名称</span>
+                <span class="reporter-method-output">[LongTeng 2016-11-23 22:43:16] 选择分类信息</span>
+                <span class="reporter-method-output">[LongTeng 2016-11-23 22:43:16] 选择借款用途</span>
+                <span class="reporter-method-output">[LongTeng 2016-11-23 22:43:16] 选择借合同类型</span>
+                <span class="reporter-method-output">[LongTeng 2016-11-23 22:43:16] 选择转让合同类型</span>
+                <span class="reporter-method-output">[LongTeng 2016-11-23 22:43:16] 借款金额</span>
+                <span class="reporter-method-output">[LongTeng 2016-11-23 22:43:16] 输入第三方保证金</span>
+                <span class="reporter-method-output">[LongTeng 2016-11-23 22:43:16] 输入最低投标金额</span>
+                <span class="reporter-method-output">[LongTeng 2016-11-23 22:43:16] 输入年率利</span>
+                <span class="reporter-method-output">[LongTeng 2016-11-23 22:43:16] 输入投标期限</span>
+                <span class="reporter-method-output">[LongTeng 2016-11-23 22:43:16] 点击提交按钮！</span>
+                <span class="reporter-method-output">[LongTeng 2016-11-23 22:43:21] =======================================================</span>
+                <span class="reporter-method-output">[LongTeng 2016-11-23 22:43:21] 测试方法 【addCreditCase】 执行成功！</span>
+                <span class="reporter-method-output">[LongTeng 2016-11-23 22:43:21] =======================================================</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">loginCase(andawei, 123456)</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">[LongTeng 2016-11-23 22:44:44] 输入用户名：andawei</span>
+                <span class="reporter-method-output">[LongTeng 2016-11-23 22:44:44] 输入密码：123456</span>
+                <span class="reporter-method-output">[LongTeng 2016-11-23 22:44:44] 输入验证码：1111</span>
+                <span class="reporter-method-output">[LongTeng 2016-11-23 22:44:44] 点击登录按钮</span>
+                <span class="reporter-method-output">[LongTeng 2016-11-23 22:44:49] 登录成功！</span>
+                <span class="reporter-method-output">[LongTeng 2016-11-23 22:44:49] =======================================================</span>
+                <span class="reporter-method-output">[LongTeng 2016-11-23 22:44:49] 测试方法 【loginCase】 执行成功！</span>
+                <span class="reporter-method-output">[LongTeng 2016-11-23 22:44:49] =======================================================</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">addCreditCase(200000)</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">[LongTeng 2016-11-23 22:43:21] 点击菜单</span>
+                <span class="reporter-method-output">[LongTeng 2016-11-23 22:43:52] 点击新增贷款按钮</span>
+                <span class="reporter-method-output">[LongTeng 2016-11-23 22:43:52] 填写新增贷款详细信息！</span>
+                <span class="reporter-method-output">[LongTeng 2016-11-23 22:43:53] 输入贷款用途</span>
+                <span class="reporter-method-output">[LongTeng 2016-11-23 22:43:53] 输入简称</span>
+                <span class="reporter-method-output">[LongTeng 2016-11-23 22:43:53] 输入会员名称</span>
+                <span class="reporter-method-output">[LongTeng 2016-11-23 22:43:53] 选择分类信息</span>
+                <span class="reporter-method-output">[LongTeng 2016-11-23 22:43:54] 选择借款用途</span>
+                <span class="reporter-method-output">[LongTeng 2016-11-23 22:43:54] 选择借合同类型</span>
+                <span class="reporter-method-output">[LongTeng 2016-11-23 22:43:54] 选择转让合同类型</span>
+                <span class="reporter-method-output">[LongTeng 2016-11-23 22:43:54] 借款金额</span>
+                <span class="reporter-method-output">[LongTeng 2016-11-23 22:43:54] 输入第三方保证金</span>
+                <span class="reporter-method-output">[LongTeng 2016-11-23 22:43:54] 输入最低投标金额</span>
+                <span class="reporter-method-output">[LongTeng 2016-11-23 22:43:54] 输入年率利</span>
+                <span class="reporter-method-output">[LongTeng 2016-11-23 22:43:54] 输入投标期限</span>
+                <span class="reporter-method-output">[LongTeng 2016-11-23 22:43:54] 点击提交按钮！</span>
+                <span class="reporter-method-output">[LongTeng 2016-11-23 22:43:57] =======================================================</span>
+                <span class="reporter-method-output">[LongTeng 2016-11-23 22:43:57] 测试方法 【addCreditCase】 执行成功！</span>
+                <span class="reporter-method-output">[LongTeng 2016-11-23 22:43:57] =======================================================</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">addCreditCase(127822)</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">[LongTeng 2016-11-23 22:43:57] 点击菜单</span>
+                <span class="reporter-method-output">[LongTeng 2016-11-23 22:44:28] 点击新增贷款按钮</span>
+                <span class="reporter-method-output">[LongTeng 2016-11-23 22:44:28] 填写新增贷款详细信息！</span>
+                <span class="reporter-method-output">[LongTeng 2016-11-23 22:44:29] 输入贷款用途</span>
+                <span class="reporter-method-output">[LongTeng 2016-11-23 22:44:29] 输入简称</span>
+                <span class="reporter-method-output">[LongTeng 2016-11-23 22:44:29] 输入会员名称</span>
+                <span class="reporter-method-output">[LongTeng 2016-11-23 22:44:29] 选择分类信息</span>
+                <span class="reporter-method-output">[LongTeng 2016-11-23 22:44:29] 选择借款用途</span>
+                <span class="reporter-method-output">[LongTeng 2016-11-23 22:44:29] 选择借合同类型</span>
+                <span class="reporter-method-output">[LongTeng 2016-11-23 22:44:30] 选择转让合同类型</span>
+                <span class="reporter-method-output">[LongTeng 2016-11-23 22:44:30] 借款金额</span>
+                <span class="reporter-method-output">[LongTeng 2016-11-23 22:44:30] 输入第三方保证金</span>
+                <span class="reporter-method-output">[LongTeng 2016-11-23 22:44:30] 输入最低投标金额</span>
+                <span class="reporter-method-output">[LongTeng 2016-11-23 22:44:30] 输入年率利</span>
+                <span class="reporter-method-output">[LongTeng 2016-11-23 22:44:30] 输入投标期限</span>
+                <span class="reporter-method-output">[LongTeng 2016-11-23 22:44:30] =======================================================</span>
+                <span class="reporter-method-output">[LongTeng 2016-11-23 22:44:30] 测试方法 【addCreditCase】 执行失败</span>
+                <span class="reporter-method-output">[LongTeng 2016-11-23 22:44:30] 请参考：<a href="../screenshot/addCreditCase_1479912270651.jpg" style="color:red;">addCreditCase_1479912270651.jpg</font></a></span>
+                <span class="reporter-method-output">[LongTeng 2016-11-23 22:44:30] 失败原因为：Unexpected modal dialog (text: 无法整除): 无法整除
+Build info: version: '2.53.1', revision: 'a36b8b1cd5757287168e54b817830adce9b0158d', time: '2016-06-30 19:26:09'
+System info: host: 'DESKTOP-CTUQCKS', ip: '192.168.1.6', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.7.0_80'
+*** Element info: {Using=name, value=enddate}
+Session ID: 7158925a-b20b-4464-bf9d-71778be778b6
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{platform=WINDOWS, acceptSslCerts=true, javascriptEnabled=true, cssSelectorsEnabled=true, databaseEnabled=true, browserName=firefox, handlesAlerts=true, nativeEvents=false, webStorageEnabled=true, rotatable=false, locationContextEnabled=true, applicationCacheEnabled=true, takesScreenshot=true, version=34.0}]</span>
+                <span class="reporter-method-output">[LongTeng 2016-11-23 22:44:30] =======================================================</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
         <div panel-name="ignored-methods-suite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">2 ignored methods</span>
+            <span class="header-content">1 ignored method</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <div class="ignored-class-div">
               <span class="ignored-class-name">com.longteng.selenium.testcase.AllCreditCase</span>
               <div class="ignored-methods-div">
                 <span class="ignored-method-name">testdemo</span>
-                <br/>
-                <span class="ignored-method-name">addCreditCase</span>
                 <br/>
               </div> <!-- ignored-methods-div -->
             </div> <!-- ignored-class-div -->
@@ -260,29 +498,53 @@ return data;
                 <span class="method-name">beforeTestBase</span>
                 <span class="method-start">0 ms</span>
               </div> <!-- configuration-test before -->
+              <div class="configuration-class before">
+                <span class="method-name">beforeBaseClass</span>
+                <span class="method-start">21 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">addCreditCase(10000)</span>
+                <span class="method-start">8861 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">addCreditCase(200000)</span>
+                <span class="method-start">51770 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">addCreditCase(127822)</span>
+                <span class="method-start">88048 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">afterBaseClass</span>
+                <span class="method-start">121220 ms</span>
+              </div> <!-- configuration-class after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">com.longteng.selenium.testcase.P2pLoginCase</div> <!-- chronological-class-name -->
               <div class="configuration-class before">
-                <img src="failed.png">
-                </img>
                 <span class="method-name">initPage</span>
-                <span class="method-start">29 ms</span>
+                <span class="method-start">122672 ms</span>
               </div> <!-- configuration-class before -->
               <div class="test-method">
                 <span class="method-name">loginCase(admin, admin)</span>
-                <span class="method-start">126 ms</span>
+                <span class="method-start">126728 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">loginCase(andawei, 123456)</span>
-                <span class="method-start">129 ms</span>
+                <span class="method-start">133850 ms</span>
               </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">closedBrow</span>
+                <span class="method-start">139989 ms</span>
+              </div> <!-- configuration-class after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">com.longteng.selenium.testcase.AllCreditCase</div> <!-- chronological-class-name -->
               <div class="configuration-test after">
                 <span class="method-name">afterTest</span>
-                <span class="method-start">133 ms</span>
+                <span class="method-start">140023 ms</span>
               </div> <!-- configuration-test after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->

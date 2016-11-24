@@ -8,18 +8,21 @@
   </listeners>
   <test name="test(failed)">
     <classes>
-      <class name="com.longteng.selenium.testcase.AllCreditCase">
-        <methods>
-          <include name="beforeTestBase"/>
-          <include name="afterTest"/>
-        </methods>
-      </class> <!-- com.longteng.selenium.testcase.AllCreditCase -->
       <class name="com.longteng.selenium.testcase.P2pLoginCase">
         <methods>
-          <include name="loginCase"/>
+          <include name="closedBrow"/>
           <include name="initPage"/>
         </methods>
       </class> <!-- com.longteng.selenium.testcase.P2pLoginCase -->
+      <class name="com.longteng.selenium.testcase.AllCreditCase">
+        <methods>
+          <include name="beforeTestBase"/>
+          <include name="afterBaseClass"/>
+          <include name="addCreditCase" invocation-numbers="2"/>
+          <include name="beforeBaseClass"/>
+          <include name="afterTest"/>
+        </methods>
+      </class> <!-- com.longteng.selenium.testcase.AllCreditCase -->
     </classes>
   </test> <!-- test(failed) -->
 </suite> <!-- Failed suite [suite] -->

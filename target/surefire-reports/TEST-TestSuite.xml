@@ -1,49 +1,51 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="TestSuite" time="1.159" tests="4" errors="0" skipped="3" failures="1">
+<testsuite name="TestSuite" time="125.415" tests="5" errors="0" skipped="0" failures="1">
   <properties>
+    <property name="idea.version" value="2016.1.4"/>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.7.0_80\jre\bin"/>
     <property name="java.vm.version" value="24.80-b11"/>
     <property name="java.vm.vendor" value="Oracle Corporation"/>
-    <property name="maven.multiModuleProjectDirectory" value="D:\workSpace\com.longteng.selenium.demo"/>
     <property name="java.vendor.url" value="http://java.oracle.com/"/>
     <property name="path.separator" value=";"/>
     <property name="guice.disable.misplaced.annotation.check" value="true"/>
     <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
     <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="idea.launcher.port" value="7533"/>
     <property name="user.script" value=""/>
     <property name="user.country" value="CN"/>
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="sun.os.patch.level" value=""/>
     <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
-    <property name="user.dir" value="D:\workSpace\com.longteng.selenium.demo"/>
+    <property name="user.dir" value="D:\workspace\seleniumDemo"/>
     <property name="java.runtime.version" value="1.7.0_80-b15"/>
     <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
     <property name="java.endorsed.dirs" value="C:\Program Files\Java\jdk1.7.0_80\jre\lib\endorsed"/>
     <property name="os.arch" value="amd64"/>
-    <property name="java.io.tmpdir" value="C:\Users\fengy\AppData\Local\Temp\"/>
+    <property name="java.io.tmpdir" value="C:\Users\feng_\AppData\Local\Temp\"/>
     <property name="line.separator" value="&#10;"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="user.variant" value=""/>
     <property name="os.name" value="Windows 8.1"/>
-    <property name="classworlds.conf" value="D:\workSpace\.metadata\.plugins\org.eclipse.m2e.launching\launches\m2conf3042266617083974736.tmp"/>
+    <property name="classworlds.conf" value="C:\Program Files (x86)\JetBrains\IntelliJ IDEA 2016.1.4\plugins\maven\lib\maven3\bin\m2.conf"/>
     <property name="sun.jnu.encoding" value="GBK"/>
-    <property name="java.library.path" value="C:\Program Files\Java\jdk1.7.0_80\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:/Program Files/Java/jdk1.7.0_80/bin/../jre/bin/server;C:/Program Files/Java/jdk1.7.0_80/bin/../jre/bin;C:/Program Files/Java/jdk1.7.0_80/bin/../jre/lib/amd64;C:\Program Files\Java\jdk1.7.0_80\bin;C:\ProgramData\Oracle\Java\javapath;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\ATI Technologies\ATI.ACE\Core-Static;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\Program Files (x86)\Common Files\lenovo\easyplussdk\bin;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;D:\testtools\eclipseTools\gradle-3.1\bin;C:\WINDOWS\system32\config\systemprofile\.dnx\bin;C:\Program Files\Microsoft DNX\Dnvm\;D:\mysql\mysql-5.6.24-winx64\bin;C:\strawberry\c\bin;C:\strawberry\perl\bin;D:\java\apache-maven-3.3.9\bin;C:\Users\fengy\AppData\Local\Google\Chrome\Application;D:\testtools\git\Git\cmd;D:\testtools\ultraedit;C:\Program Files\IDM Computer Solutions\UltraCompare;D:\testtools\eclipseTools\apache-maven-3.0.4\bin;D:\testtools\apache-tomcat-7.0.72\bin;C:\Users\fengy\AppData\Local\Microsoft\WindowsApps;;D:\testtools\eclipse-jee-mars-2-win32-x86_64\eclipse;;."/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk1.7.0_80\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files\Java\jdk1.7.0_80\bin;C:\Program Files\Java\jdk1.7.0_80\jre\bin;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;D:\testTools\mysql-5.6.24-winx64\bin;C:\Program Files\IDM Computer Solutions\UltraEdit;D:\testTools\apache-maven-3.3.9\bin;D:\testTools\apache-tomcat-7.0.72\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files\Git\cmd;C:\Users\feng_\AppData\Local\Microsoft\WindowsApps;;."/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
     <property name="java.class.version" value="51.0"/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="os.version" value="6.3"/>
-    <property name="user.home" value="C:\Users\fengy"/>
+    <property name="user.home" value="C:\Users\feng_"/>
     <property name="user.timezone" value="Asia/Shanghai"/>
     <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
     <property name="java.specification.version" value="1.7"/>
+    <property name="idea.launcher.bin.path" value="C:\Program Files (x86)\JetBrains\IntelliJ IDEA 2016.1.4\bin"/>
     <property name="file.encoding" value="UTF-8"/>
-    <property name="user.name" value="fengy"/>
-    <property name="java.class.path" value="/D:/testtools/eclipse-jee-mars-2-win32-x86_64/eclipse/plugins/org.eclipse.m2e.maven.runtime_1.6.2.20150902-0001/jars/plexus-classworlds-2.5.2.jar"/>
+    <property name="user.name" value="feng_"/>
+    <property name="java.class.path" value="C:\Program Files (x86)\JetBrains\IntelliJ IDEA 2016.1.4\plugins\maven\lib\maven3\boot\plexus-classworlds-2.4.jar;C:\Program Files (x86)\JetBrains\IntelliJ IDEA 2016.1.4\lib\idea_rt.jar"/>
     <property name="java.vm.specification.version" value="1.7"/>
     <property name="sun.arch.data.model" value="64"/>
     <property name="java.home" value="C:\Program Files\Java\jdk1.7.0_80\jre"/>
-    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher -B install"/>
+    <property name="sun.java.command" value="com.intellij.rt.execution.application.AppMain org.codehaus.classworlds.Launcher -Didea.version=2016.1.4 install"/>
     <property name="java.specification.vendor" value="Oracle Corporation"/>
     <property name="user.language" value="zh"/>
     <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
@@ -52,7 +54,7 @@
     <property name="java.ext.dirs" value="C:\Program Files\Java\jdk1.7.0_80\jre\lib\ext;C:\WINDOWS\Sun\Java\lib\ext"/>
     <property name="sun.boot.class.path" value="C:\Program Files\Java\jdk1.7.0_80\jre\lib\resources.jar;C:\Program Files\Java\jdk1.7.0_80\jre\lib\rt.jar;C:\Program Files\Java\jdk1.7.0_80\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.7.0_80\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.7.0_80\jre\lib\jce.jar;C:\Program Files\Java\jdk1.7.0_80\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.7.0_80\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.7.0_80\jre\classes"/>
     <property name="java.vendor" value="Oracle Corporation"/>
-    <property name="maven.home" value="D:\workSpace\com.longteng.selenium.demo\EMBEDDED"/>
+    <property name="maven.home" value="C:\Program Files (x86)\JetBrains\IntelliJ IDEA 2016.1.4\plugins\maven\lib\maven3"/>
     <property name="file.separator" value="\"/>
     <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
     <property name="sun.cpu.endian" value="little"/>
@@ -60,43 +62,60 @@
     <property name="sun.desktop" value="windows"/>
     <property name="sun.cpu.isalist" value="amd64"/>
   </properties>
-  <testcase name="initPage" classname="com.longteng.selenium.testcase.P2pLoginCase" time="1.159">
-    <failure type="java.lang.ExceptionInInitializerError:"><![CDATA[java.lang.ExceptionInInitializerError: null
-	at org.openqa.selenium.firefox.internal.Executable.locateFirefoxBinaryFromSystemProperty(Executable.java:146)
-	at org.openqa.selenium.firefox.internal.Executable.<clinit>(Executable.java:45)
-	at org.openqa.selenium.firefox.FirefoxBinary.<init>(FirefoxBinary.java:60)
-	at org.openqa.selenium.firefox.FirefoxBinary.<init>(FirefoxBinary.java:56)
-	at org.openqa.selenium.firefox.FirefoxDriver.<init>(FirefoxDriver.java:120)
-	at com.longteng.qa.webdriver.DriverBase.launch(DriverBase.java:47)
-	at com.longteng.selenium.testcase.P2pLoginCase.initPage(P2pLoginCase.java:18)
-]]></failure>
-    <system-out><![CDATA[[Longteng 2016-11-12 22:05:02] =======================================================
-[Longteng 2016-11-12 22:05:02]                     测试框架执行开始
-[Longteng 2016-11-12 22:05:02] =======================================================
-[Longteng 2016-11-12 22:05:02] 初始化配置文件
-browser的值为；Firefox
-browserLocation的值为；C:\Firefox\firefox.exe
-[LongTeng 2016-11-12 22:05:02] 打开Firefox浏览器
+  <testcase name="addCreditCase" classname="com.longteng.selenium.testcase.AllCreditCase" time="42.908"/>
+  <testcase name="addCreditCase" classname="com.longteng.selenium.testcase.AllCreditCase" time="36.276"/>
+  <testcase name="addCreditCase" classname="com.longteng.selenium.testcase.AllCreditCase" time="32.972">
+    <failure message="Unexpected modal dialog (text: 鏃犳硶鏁撮櫎): 鏃犳硶鏁撮櫎&#10;Build info: version: &apos;2.53.1&apos;, revision: &apos;a36b8b1cd5757287168e54b817830adce9b0158d&apos;, time: &apos;2016-06-30 19:26:09&apos;&#10;System info: host: &apos;DESKTOP-CTUQCKS&apos;, ip: &apos;192.168.1.6&apos;, os.name: &apos;Windows 8.1&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.3&apos;, java.version: &apos;1.7.0_80&apos;&#10;*** Element info: {Using=name, value=enddate}&#10;Session ID: 7158925a-b20b-4464-bf9d-71778be778b6&#10;Driver info: org.openqa.selenium.firefox.FirefoxDriver&#10;Capabilities [{platform=WINDOWS, acceptSslCerts=true, javascriptEnabled=true, cssSelectorsEnabled=true, databaseEnabled=true, browserName=firefox, handlesAlerts=true, nativeEvents=false, webStorageEnabled=true, rotatable=false, locationContextEnabled=true, applicationCacheEnabled=true, takesScreenshot=true, version=34.0}]" type="org.openqa.selenium.UnhandledAlertException">org.openqa.selenium.UnhandledAlertException: Unexpected modal dialog (text: 鏃犳硶鏁撮櫎): 鏃犳硶鏁撮櫎
+Build info: version: '2.53.1', revision: 'a36b8b1cd5757287168e54b817830adce9b0158d', time: '2016-06-30 19:26:09'
+System info: host: 'DESKTOP-CTUQCKS', ip: '192.168.1.6', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.7.0_80'
+*** Element info: {Using=name, value=enddate}
+Session ID: 7158925a-b20b-4464-bf9d-71778be778b6
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{platform=WINDOWS, acceptSslCerts=true, javascriptEnabled=true, cssSelectorsEnabled=true, databaseEnabled=true, browserName=firefox, handlesAlerts=true, nativeEvents=false, webStorageEnabled=true, rotatable=false, locationContextEnabled=true, applicationCacheEnabled=true, takesScreenshot=true, version=34.0}]
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:57)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:526)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)
+	at org.openqa.selenium.remote.ErrorHandler.createUnhandledAlertException(ErrorHandler.java:187)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:154)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:678)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:363)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByName(RemoteWebDriver.java:461)
+	at org.openqa.selenium.By$ByName.findElement(By.java:303)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:355)
+	at sun.reflect.GeneratedMethodAccessor1.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$2.invoke(EventFiringWebDriver.java:103)
+	at com.sun.proxy.$Proxy8.findElement(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver.findElement(EventFiringWebDriver.java:188)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at com.sun.proxy.$Proxy10.sendKeys(Unknown Source)
+	at com.longteng.selenium.page.AllCreditPage.addCredit(AllCreditPage.java:162)
+	at com.longteng.selenium.testcase.AllCreditCase.addCreditCase(AllCreditCase.java:26)
+</failure>
+    <system-out><![CDATA[[LongTeng 2016-11-23 22:43:57] =======================================================
+[LongTeng 2016-11-23 22:43:57] 测试方法 【addCreditCase】 执行成功！
+[LongTeng 2016-11-23 22:43:57] =======================================================
+[LongTeng 2016-11-23 22:43:57] 点击菜单
+[LongTeng 2016-11-23 22:44:28] 点击新增贷款按钮
+[LongTeng 2016-11-23 22:44:28] 填写新增贷款详细信息！
+[LongTeng 2016-11-23 22:44:29] 输入贷款用途
+[LongTeng 2016-11-23 22:44:29] 输入简称
+[LongTeng 2016-11-23 22:44:29] 输入会员名称
+[LongTeng 2016-11-23 22:44:29] 选择分类信息
+[LongTeng 2016-11-23 22:44:29] 选择借款用途
+[LongTeng 2016-11-23 22:44:29] 选择借合同类型
+[LongTeng 2016-11-23 22:44:30] 选择转让合同类型
+[LongTeng 2016-11-23 22:44:30] 借款金额
+[LongTeng 2016-11-23 22:44:30] 输入第三方保证金
+[LongTeng 2016-11-23 22:44:30] 输入最低投标金额
+[LongTeng 2016-11-23 22:44:30] 输入年率利
+[LongTeng 2016-11-23 22:44:30] 输入投标期限
 ]]></system-out>
   </testcase>
-  <testcase name="loginCase" classname="com.longteng.selenium.testcase.P2pLoginCase" time="0">
-    <skipped/>
-    <system-out><![CDATA[[Ljava.lang.String;@7f768063sssssssssssss
-[Ljava.lang.String;@3ce724f5sssssssssssss
-]]></system-out>
-  </testcase>
-  <testcase name="loginCase" classname="com.longteng.selenium.testcase.P2pLoginCase" time="0">
-    <skipped/>
-    <system-out><![CDATA[[LongTeng 2016-11-12 22:05:02] =======================================================
-[LongTeng 2016-11-12 22:05:02] 测试方法 【loginCase】 执行跳过
-[LongTeng 2016-11-12 22:05:02] =======================================================
-]]></system-out>
-  </testcase>
-  <testcase name="closedBrow" classname="com.longteng.selenium.testcase.P2pLoginCase" time="0">
-    <skipped/>
-    <system-out><![CDATA[[LongTeng 2016-11-12 22:05:02] =======================================================
-[LongTeng 2016-11-12 22:05:02] 测试方法 【loginCase】 执行跳过
-[LongTeng 2016-11-12 22:05:02] =======================================================
-]]></system-out>
-  </testcase>
+  <testcase name="loginCase" classname="com.longteng.selenium.testcase.P2pLoginCase" time="7.122"/>
+  <testcase name="loginCase" classname="com.longteng.selenium.testcase.P2pLoginCase" time="6.137"/>
 </testsuite>
